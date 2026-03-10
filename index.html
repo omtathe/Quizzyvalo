@@ -6,12 +6,21 @@
     <title>Quizzyvalo</title>
 </head>
 <body>
-    <header> 
-        <id="Logo"></id>
+    
+<header style="display:flex; justify-content:space-between; align-items:center; padding:10px;">
+    <!-- Left side: Logo + Title -->
+    <div style="display:flex; align-items:center;">
+        <div id="Logo" style="width:40px; height:40px; background-color:gray; margin-right:10px;"></div>
         <h1>Quizzyvalo</h1>
-    </header>
+    </div>
 
-    <div id="games" style="display:flex; justify-content:space-around; text-align:center;">
+    <!-- Right side: Login/Profile -->
+    <div id="profile" style="cursor:pointer;">
+        <h3>Login</h3>
+    </div>
+</header>
+
+<div id="games" style="display:flex; justify-content:space-around; text-align:center;">
     <div style="flex:1; cursor:pointer;">
         <h2>Agent</h2>
     </div>
@@ -21,7 +30,7 @@
     <div style="flex:1; cursor:pointer;">
         <h2>Weapon</h2>
     </div>
-    </div>
+</div>
 
 
     <footer>
