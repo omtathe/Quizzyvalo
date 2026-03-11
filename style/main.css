@@ -9,7 +9,58 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     background-color: rgba(39, 37, 36, 0.959);
+}
+.Quest p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.options{
+    display:flex; 
+    justify-content:space-around; 
+    width:50%;
+    
+}
+.options div {
+    height: 100%;
+    width: 100%;
+    border: 1px;
+    border-style: solid;
+    border-color: red;
+    margin: 5px 5px 0px 0px;
+}
+.options div:hover {
+    border-color: white;
+}
+.options div:active
+ {
+    border-color: green;
+}
+.options div img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+section button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+section button:hover {
+    background-color: white;
+    color: red;
+}
+section button:active {
+    transform: translateY(2px);
+    
 }
