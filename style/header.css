@@ -1,0 +1,34 @@
+header {
+    background-color:#0f1923;
+    margin: 0;
+    padding: 0;
+}
+
+.info-games-button{
+    display:flex;
+     justify-content:space-around; 
+     text-align:center;
+     height: 60px;
+     margin-bottom: 10px;
+     background-color:#0f1923;
+     margin: 0;
+     
+    
+} 
+.info-games-button button{
+     width: 100%;
+     margin-left: 10px;
+    
+     background-color: transparent;
+     border: none;
+    color: red;
+     font-weight: bold;
+     cursor: pointer;
+     font-size: large;
+ }
+ .info-games-button button:hover{
+     background-color:rgb(196, 71, 71);
+    color: white;
+ }
+ 
+
