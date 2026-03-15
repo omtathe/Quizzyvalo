@@ -1,0 +1,27 @@
+.about-section{
+    background-color: rgba(39, 37, 36, 0.959);
+    color: white;
+    width:100vw;
+    min-height:100vh;
+    padding:40px;
+    box-sizing:border-box; 
+    text-align:center;
+}
+.images-section{
+    display:flex; 
+    justify-content:space-around; 
+    width:100vw;
+    margin-top: 30px;
+}
+.images-section div {
+    height: 300px;
+    width: 300px;
+    border: 1px;
+    border-style: solid;
+    margin: 5px 5px 0px 0px;
+}
+.images-section div img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}

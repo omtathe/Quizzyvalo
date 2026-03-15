@@ -30,5 +30,9 @@ header {
      background-color:rgb(196, 71, 71);
     color: white;
  }
+ .button-text{
+     color: white;
+     text-underline-offset: none;
+ }
  
 
