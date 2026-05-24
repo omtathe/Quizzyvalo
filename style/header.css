@@ -12,8 +12,7 @@ header {
      margin-bottom: 10px;
      background-color:#0f1923;
      margin: 0;
-     
-    
+   
 } 
 .info-games-button button{
      width: 100%;
@@ -34,5 +33,7 @@ header {
      color: white;
      text-underline-offset: none;
  }
- 
+ h3{
+    color: white;
+ }
 
